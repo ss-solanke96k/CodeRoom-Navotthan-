@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../shared/hooks/useAuth.js';
-import LoginPage from '../features/auth/LoginPage.jsx';
+import LoginPage from '../features/auth/LoginPage.js';
 import LobbyPage from '../features/lobby/LobbyPage.jsx';
-import EditorPage from '../features/editor/EditorPage.jsx';
+import EditorPage from '../features/editor/EditorPage.js';
 import Spinner from '../shared/components/Spinner.jsx';
 
 export default function AppRouter() {
