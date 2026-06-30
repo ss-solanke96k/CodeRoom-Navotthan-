@@ -5,7 +5,7 @@ import { Code, Key, Mail, User, ShieldCheck, Zap } from 'lucide-react';
 import Button from '../../shared/components/Button.jsx';
 import Input from '../../shared/components/Input.jsx';
 import Alert from '../../shared/components/Alert.jsx';
-import MainLayout from '../../src/layouts/MainLayout.jsx';
+import MainLayout from '../../layouts/MainLayout.jsx';
 
 export default function LoginPage() {
   const { login, register, loading, error, clearError } = useAuth();
