@@ -3,11 +3,11 @@ import http from 'http';
 import path from 'path';
 import { Server } from 'socket.io';
 import { createServer as createViteServer } from 'vite';
-import { config } from './config/config.js';
-import { connectMongoDB } from './config/database.js';
-import { authRouter } from './routes/authRoutes.js';
-import { roomRouter } from './routes/roomRoutes.js';
-import { setupSocketService } from './services/socketService.js';
+import { config } from './src/config/config.js';
+import { connectMongoDB } from './src/config/database.js';
+import { authRouter } from './src/routes/authRoutes.js';
+import { roomRouter } from './src/routes/roomRoutes.js';
+import { setupSocketService } from './src/services/socketService.js';
 
 async function startServer() {
   const app = express();
